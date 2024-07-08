@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Desserts by L</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/038/365/876/small_2x/ai-generated-horizontal-banner-cupcake-with-coconut-homemade-cakes-cake-with-coconut-chips-tropical-desserts-place-for-text-blue-cream-photo.jpg");
+  min-height: 75%;
+}
+</style>
+</head>
+<body>
+
+<!-- Header with image -->
+<header class="bgimg" id="home">
+  <div class="w3-display-left">
+    <p class="w3-text-white" style="font-size:70px; padding-left: 100px">Desserts by L</p>
+  </div>
+</header>
+
+<!-- Password -->
+<center id="passwordScreen" class="w3-padding-64">
+  <input type="password" placeholder="password" id="tutorial">
+  <button onclick="protectpasscode()">Log in</button>
+  <script>
+    function protectpasscode() {
+      const result = document.getElementById("tutorial").value;
+      let passcode = 12345;
+      let space = '';
+      if (result == passcode) {
+        document.getElementById("passwordScreen").style.display="none";
+        document.getElementById("website").style.display="inline";
+      } else {
+        alert('Incorrect password');
+      }
+    }
+  </script>
+</center>
+
+<div id="website" style="display:none">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-wide">About</span></h5>
+    <p>Located in beautiful Sonoma County, Leticia’s homemade desserts rival the elegant creations found in the best boutique bakeries. Let her create beautiful, great-tasting desserts for your next party. Cater a breakfast meeting for your business... her scones are simply the best.</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-wide">Menu</span></h5>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+<ul>
+	<li>Bittersweet dark chocolate brownies*</li>
+	<li>Ginger molasses cookies*</li>
+	<li>Russian tea cakes (contains pecans)*</li>
+  <li>Meyer lemon tarts*</li>
+  <li>Mini chocolate, vanilla, or red velvet bundt cakes*</li>
+  <li>Sugar cookies*</li>
+  <li>Chocolate covered strawberries*</li>
+  <li>Chocolate chip bars*</li>
+  <li>Lemon anise biscottis*</li>
+  <li>Triple chocolate cookies (gluten free)*</li>
+  <li>Chocolate, vanilla, or lemon cupcakes*</li>
+  <li>Layered cakes**
+    <ul>
+      <li>Size options: 6 inch  - 1/4 sheet</li>
+      <li>Cake flavor options: chocolate, vanilla, red velvet, or lemon</li>
+      <li>Frosting options: chocolate or buttercream</li>
+    </ul>
+  <li>Sample platter: $50 for 25 pieces</li>
+  <li>Delivery charge: $100 (within Santa Rosa city limits)</li>
+  <li>Set-up/plate desserts: $200</li>
+  <li>Rental of cake stands, plates: $200</li>
+</ul>
+<p>* $3 - $6 (specific prices available upon request), minimum order 1 dozen</p>
+<p>** Specific prices available upon request</p>
+
+<p>Please inquire further for special requests.</p>
+
+<!-- Gallery Container -->
+<div class="w3-container" id="gallery" style="padding-bottom:32px; margin: 0 auto; text-align: center;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-wide">Gallery</span></h5>
+
+<div>
+	<img src="./pictures/1.png" style="width:200px; height:100px" class="w3-margin-top">
+	<img src="./pictures/2.png" style="width:200px; height:100px" class="w3-margin-top">
+	<img src="./pictures/3.png" style="width:200px; height:100px" class="w3-margin-top">
+	<img src="./pictures/5.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/6.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/7.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/8.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/9.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/10.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/12.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/13.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/14.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/15.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/16.png" style="width:200px; height:100px" class="w3-margin-top">
+  <img src="./pictures/17.png" style="width:200px; height:100px" class="w3-margin-top">
+</div>
+
+</div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="clients" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-wide">Events and Client List</span></h5>
+    <ul>
+    <li>Celebration of life</li>
+    <li>Party favor boxes</li>
+	  <li>Winery Special Events, i.e. grand opening, new wine release</li>
+	  <li>Bridal Showers </li>
+    <li>Baby Showers</li>
+    <li>Wedding Receptions</li>
+    <li>Birthday Parties</li>
+	</ul>
+	References available upon request.
+  </div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
